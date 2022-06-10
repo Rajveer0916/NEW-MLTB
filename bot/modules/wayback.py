@@ -2,7 +2,6 @@ from telegram import Message
 import waybackpy, re, random
 from telegram.ext import CommandHandler
 from bot import LOGGER, dispatcher
-from bot.helper.ext_utils.shortenurl import short_url
 from bot.helper.telegram_helper.filters import CustomFilters
 from bot.helper.telegram_helper.bot_commands import BotCommands
 from bot.helper.telegram_helper.message_utils import editMessage, sendMessage

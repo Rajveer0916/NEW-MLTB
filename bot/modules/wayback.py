@@ -71,5 +71,3 @@ def getRandomUserAgent():
     ]
     return agents[random.randint(0, len(agents)-1)]
 
-    filters=CustomFilters.authorized_chat | CustomFilters.authorized_user, run_async=True)
-dispatcher.add_handler(wayback_handler)
